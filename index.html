@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 
 
@@ -18,15 +21,15 @@
 <body>
   <!-- navigation -->
     <header>
-        <img id="logo" src="/images/Asset 1@3x.png" alt="company logo" width="200">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Story</a> </li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <nav class="topbar">
+                <img class="logo" id="logo" src="/images/Asset 3@3x.png" alt="company logo" width="200"> 
+                <ul class="navigation">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Story</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
         </nav>
     </header>
 
@@ -34,37 +37,39 @@
 
         <!-- home -->
         <section class="home">
-           <h2>Mangata and Gallo</h2>
-           <p>Browse Our Captivating Collection, and Express Your Love With an Elegant, Timeless Ring.</p>
-           <button>Explore</button>
+          <div class="home-content">
+            <h2>Mangata and Gallo</h2>
+            <p>Browse Our Captivating Collection, and Express Your Love With an Elegant, Timeless Ring.</p>
+            <button class="btn"><span>Explore More</span></button>
+          </div>
         </section>
         
         <!-- story -->
         <section class="story">
           <h3>About Us</h3>
           <p>One Monday afternoon in October, Bill invited Jen to hike up Talcott Mountain the next day, as the forecast was unusually warm. It would surely be one if their last chances to hike in decent weather before the winter, and Bill told Jen he had a special day planned for them. His idea was to bring his cooker to warm up some hot cocoa that the two could share at the top of the mountain. Jen was excited, but concerned that she wouldn’t be able to get out if work until late in the day when the sun was setting. Bill urged Jen to try her best to get out of work around 3, as this was the week that the autumn leaves are historically most vibrant and he wanted to be able to take pictures with his good camera before the sun went down.</p>
-          <img src="" alt="">
+          <img src="/images/story.jpg" alt="Store Story" width="450">
         </section>
 
         <!-- products -->
         <section class="products"></section>
           <div class="container">
-            <!-- engagement card -->
+            <!-- ceremony card -->
             <div class="box">
-              <img src="" alt="Engagment Ring Photo">
-              <h4>Engagement Ring</h4>
+              <img src="/images/ceremony.jpg" alt="Ceremony Photo" width="450">
+              <h4>Ceremony</h4>
               <button>More</button>
             </div>
-            <!-- wedding card -->
+            <!-- cellebration card -->
             <div class="box">
-              <img src="" alt="Wedding Ring Photo">
-              <h4>Wedding Ring</h4>
+              <img src="/images/cellebration.jpg" alt="Cellebration Photo" width="450">
+              <h4>Cellebration</h4>
               <button>More</button>
             </div>
-            <!-- anniversary card -->
+            <!-- accessory card -->
             <div class="box">
-              <img src="" alt="Anniversary Ring Photo">
-              <h4>Anniversary Ring</h4>
+              <img src="/images/accessory.jpg" alt="Accessory Photo" width="450">
+              <h4>Lifestyle</h4>
               <button>More</button>
             </div>
           </div>
@@ -74,24 +79,24 @@
           <div class="container">
             <h3>Team</h3>
             <div class="designer">
-              <img src="" alt="designer 1">
-              <h4>Name1</h4>
-              <p>Describe experience and ideas</p>
+              <img src="/images/designer-1.jpg" alt="designer 1" width="300">
+              <h4>Gilbert Leo</h4>
+              <p>Timeless Artisan Designed Jewelry crafted with color and style</p>
             </div>
             <div class="designer">
-              <img src="" alt="designer 2">
-              <h4>Name2</h4>
-              <p>Describe experience and ideas</p>
+              <img src="/images/designer-2.jpg" alt="designer 2" width="300">
+              <h4>Gertruda Liv</h4>
+              <p>Jewelry is something that has to do with emotion. That aspect of jewelry really interests me.</p>
             </div>
             <div class="designer">
-              <img src="" alt="designer 3">
-              <h4>Name3</h4>
-              <p>Describe experience and ideas</p>
+              <img src="/images/designer-3.jpg" alt="designer 3" width="300">
+              <h4>Romane Élodie</h4>
+              <p>My designs resonate with a more sophisticated woman who knows what she likes and loves to wear jewelry to match her taste and style.</p>
             </div>
             <div class="designer">
-              <img src="" alt="designer 4">
-              <h4>Name4</h4>
-              <p>Describe experience and ideas</p>
+              <img src="/images/designer-4.jpg" alt="designer 4" width="300">
+              <h4>Rian Tomaso</h4>
+              <p>My mind is always working, looking at the world. Seeing shapes and colors is a natural thing for me. A design or color combination comes to mind and I always carry a sketchbook to draw in for later use.</p>
             </div>
           </div>
         </section>
